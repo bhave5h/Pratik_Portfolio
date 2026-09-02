@@ -13,7 +13,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className="h-full antialiased"
     >
     
-      <body className="min-h-full flex flex-col max-w-5xl mx-auto">{children}</body>
+      <body className="min-h-full flex flex-col max-w-6xl mx-auto">{children}</body>
     </html>
   );
 }
